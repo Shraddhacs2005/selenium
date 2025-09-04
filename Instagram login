@@ -16,5 +16,5 @@ class instagramBot():
     	self.driver.find_element_by_xpath("//input[@name = 'username']").send_keys(self.username) 
     	self.driver.find_element_by_xpath("//input[@name = 'password']").send_keys(self.password) 
     	self.driver.find_element_by_xpath("//div[contains(text(), 'Log In')]").click() 
-    	time.sleep(2) 
-    	instagramBot('Sample Username','Sample Password') 
+    	time.sleep(2)
+instagramBot('Sample Username','Sample Password') 
